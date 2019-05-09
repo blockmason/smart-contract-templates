@@ -27,7 +27,7 @@ contract ANYToken {
     constructor() public {
         owner = msg.sender;
 
-        // Add your wallet address here containing your total token supply
+        // Add your wallet address here which will contain your total token supply
         treasury = address(<wallet address>);
 
         // Set your total token supply (default 1000)
